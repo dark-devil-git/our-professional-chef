@@ -1,0 +1,52 @@
+@media (max-width:300px){
+	.row {
+    --bs-gutter-x: 0 !important;
+	--bs-gutter-y: 0 !important;
+	}
+	.aftr::after{
+		content: "";
+		width: 80px;
+		height: 2px;
+		background-color: orange;
+		position: absolute;
+		left: 70px;
+		bottom:45px;
+	}
+}
+@media (min-width:300px){
+	.row {
+    --bs-gutter-x: 0 ;
+	--bs-gutter-y: 0;
+	}
+	.aftr::after{
+		content: "";
+		width: 110px;
+		height: 2px;
+		background-color: orange;
+		position: absolute;
+		left: 80px;
+		bottom:45px;
+	}
+}
+@media (min-width:768px){
+	.aftr::after{
+		content: "";
+		width: 80px;
+		height: 2px;
+		background-color: orange;
+		position: absolute;
+		left: 100px;
+		bottom:45px;
+	}
+}
+@media (min-width:992px){
+	.aftr::after{
+		content: "";
+		width: 80px;
+		height: 2px;
+		background-color: orange;
+		position: absolute;
+		left: 140px;
+		bottom:45px;
+	}
+}
